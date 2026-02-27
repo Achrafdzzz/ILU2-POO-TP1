@@ -8,6 +8,14 @@ public class Village {
 	private Chef chef;
 	private Gaulois[] villageois;
 	private int nbVillageois = 0;
+	
+	class Marche{
+		Etal[] etal;
+		
+		public Marche(Etal nb) {
+			
+		}
+	}
 
 	public Village(String nom, int nbVillageoisMaximum) {
 		this.nom = nom;
